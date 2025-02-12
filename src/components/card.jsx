@@ -4,73 +4,14 @@ export default function card() {
     return (
         <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="/">
-                <img className="p-8 rounded-t-lg" src="https://images.pexels.com/photos/18264716/pexels-photo-18264716/free-photo-of-man-people-laptop-internet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product_image1" />
+                <img className="p-8 rounded-t-lg" src="data:image/jpeg;base64,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" alt="product_image1" />
             </a>
             <div className="px-5 pb-5">
                 <a href="/">
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                        Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                        Hello I m Chirag Tyagi
                     </h5>
                 </a>
-                <div className="flex items-center mt-2.5 mb-5">
-                    <svg
-                        className="w-4 h-4 text-yellow-300 mr-1"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 22 20"
-                    >
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                    </svg>
-                    <svg
-                        className="w-4 h-4 text-yellow-300 mr-1"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 22 20"
-                    >
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                    </svg>
-                    <svg
-                        className="w-4 h-4 text-yellow-300 mr-1"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 22 20"
-                    >
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                    </svg>
-                    <svg
-                        className="w-4 h-4 text-yellow-300 mr-1"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 22 20"
-                    >
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                    </svg>
-                    <svg
-                        className="w-4 h-4 text-gray-200 dark:text-gray-600"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 22 20"
-                    >
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                    </svg>
-                    <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                        4.0
-                    </span>
-                </div>
-                <div className="flex items-center justify-between">
-                    <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a
-                        href="/"
-                        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                    >
-                        Add to cart
-                    </a>
-                </div>
             </div>
         </div>
     );
